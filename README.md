@@ -54,3 +54,84 @@ Dự án hướng đến việc ứng dụng công nghệ thông minh để giú
 | Tích hợp & kiểm thử | 06/10/2024 - 25/10/2024 | - Kiểm thử chức năng, hiệu năng, bảo mật. |
 | Triển khai & báo cáo | 26/10/2024 - 20/11/2024 | - Đưa hệ thống vào hoạt động thực tế.<br>- Soạn thảo báo cáo nghiên cứu tổng hợp và trình bày kết quả. |
 | Báo cáo & tổng kết | 01/03/2025 - 31/03/2025 | - Soạn báo cáo khoa học và tổng kết dự án.<br>- Trình bày kết quả tại hội nghị khoa học hoặc tạp chí chuyên ngành. |
+
+### 5. Giả thiết khoa học
+
+ỨNG DỤNG VIEGRAND KẾT HỢP CAMERA THÔNG MINH nếu được phát triển hoàn thiện và tiếp cận rộng rãi sẽ mang lại nhiều lợi ích cho người dùng trong quá trình tự theo dõi tình trạng sức khỏe cũng như chăm sóc người lớn tuổi, trẻ em, người bệnh trong gia đình như:
+
+- Giúp người thân an tâm về người thân là người cao tuổi
+
+- Tiết kiệm thời gian và giảm tải áp lực trong quá trình tự theo dõi sức khỏe hoặc chăm sóc người thân, bệnh nhân là người cao tuổi
+
+- Nhắc nhở người dùng sử dụng thuốc đúng giờ, đúng liều lượng, giúp quả trình chữa trị hiệu quả hơn.
+
+- Báo khẩn cấp cho người thân khi người cao có biểu hiện của đột quỵ hoặc bất ngờ té ngã.
+
+## II. CƠ SỞ LÝ THUYẾT
+
+### 1. Đối tượng hướng tới
+
+Đối tượng trực tiếp là: Người cao tuổi
+
+#### 1.1. Thông tin cơ bản
+- **Tên và độ tuổi**: Khách hàng thuộc nhóm tuổi từ 60 trở lên, gồm cả nam và nữ. 
+  - 60-74 (người cao tuổi)
+  - 75-90 (người già)
+  - >90 (người già sống lâu)
+
+#### 1.2. Vị trí địa lý
+Do quá trình đô thị hóa nên tỷ lệ NCT sống ở nông thôn giảm từ 72,47% vào năm 2009 xuống 67,16% vào năm 2019 (hay tương ứng tỷ lệ NCT sống ở thành thị tăng từ 27,53% lên 32,84%). Ở cả hai cuộc tổng điều tra, với cả nam giới và phụ nữ cao tuổi, tỷ lệ sống ở thành thị cao hơn với những nhóm NCT trẻ tuổi hơn. 
+
+Điều này cũng có nghĩa là càng cao tuổi thì tỷ lệ NCT sống ở nông thôn càng tăng lên. Đây là một xu hướng phân bố dân số quan trọng khi xây dựng, quy hoạch các chính sách, dịch vụ dành cho NCT, đặc biệt là nhóm đại lão với các yếu tố kinh tế, sức khỏe thể hiện nhu cầu cần chăm sóc như sẽ trình bày ở phần sau.
+
+> Nguồn: https://vietnam.unfpa.org/sites/default/files/pub-pdf/ageing_report_from_census_2019_vie_final20082021.pdf
+
+#### 1.3. Nghề nghiệp và trình độ học vấn
+
+**Nghề nghiệp:**
+- Đa phần đã nghỉ hưu, theo thống kê có tới 9 triệu người không có lương hưu
+- Còn khỏe, còn minh mẫn nhưng phần lớn người cao tuổi chỉ loanh quanh làm việc nhà
+- Chỉ có số ít người có việc làm là nhờ còn khỏe và được nơi làm việc cũ tạo điều kiện
+- Nhiều người cao tuổi tiếp tục làm việc trong các ngành, nghề truyền thống như nông nghiệp hoặc thủ công, với thu nhập thấp và điều kiện làm việc không bảo đảm
+- Hiện vẫn có trên 59% số người từ 60 đến 69 tuổi và khoảng 41% người trên 70 tuổi vẫn đang làm việc, 56,8% trong lĩnh vực nông nghiệp
+- Đáng chú ý là, có rất nhiều NCT, đặc biệt là người từ 60 - 69 tuổi, có nhu cầu làm việc, nhưng không có việc làm do không tìm được công việc phù hợp, do phải làm việc nhà và điều kiện về sức khỏe
+
+**Trình độ học vấn:**
+- Trình độ học vấn của dân số cao tuổi cải thiện đáng kể theo thời gian
+- Tuy nhiên, xét theo từng trình độ, có sự khác biệt khá rõ theo giới tính và khu vực sống, trong đó nam giới và người sống ở thành thị có tỷ lệ có học vấn cao hơn phụ nữ và người sống ở nông thôn
+- Ở nam chiếm 27%, nữ chiếm 17% trình độ học vấn từ cấp 3 trở lên (thống kê năm 2018)
+
+> Nguồn: https://www.phad.org/nguoi-cao-tuoi-o-viet-nam/  
+> https://vtv.vn/xa-hoi/giai-phap-nao-de-tao-viec-lam-cho-nguoi-cao-tuoi-20221003171507328.htm  
+> https://tapchicongsan.org.vn/kinh-te/-/2018/870902/tao-viec-lam-cho-nguoi-cao-tuoi-trong-boi-canh-hien-nay.aspx
+
+#### 1.4. Hành vi và sở thích
+
+**Mua sắm và tiêu dùng:**
+- Thường mua sắm tại chợ, mua hàng hằng ngày, hằng tháng tùy theo nhu cầu cá nhân
+- Báo cáo dẫn số liệu từ DataReportal năm 2021 cho thấy, tại Việt Nam có:
+  - Hơn 85% người dùng số trong độ tuổi từ 35 - 44 (Thế hệ Y)
+  - Gần 84% người dùng số từ 45 - 54 tuổi (Thế hệ X)
+  - Hơn 75% người dùng số trong độ tuổi từ 55 - 64 tuổi (thế hệ Boomers II) đã mua trực tuyến ít nhất một sản phẩm vào tháng 1/2021
+
+Những số liệu thống kê này cho thấy sự phổ biến của thương mại điện tử đối với mọi thế hệ, trái ngược với suy nghĩ thông thường rằng "chỉ có giới trẻ mới mua sắm trực tuyến". 
+
+Người cao tuổi thường mua sắm chủ yếu ở 2 mảng chính: du lịch và thời trang. Đó là vì họ đã lớn tuổi, da dẻ đã không còn như trước cần những phụ kiện thời trang phù hợp.
+
+Người cao tuổi chia thành 3 nhóm chính:
+- Nhóm người sống tiết kiệm, khó khăn về tài chính
+- Nhóm người sống dựa vào con cái
+- Nhóm người cao tuổi có mức tài chính cao, ổn định
+
+> Nếu đánh mạnh vào nhóm người thứ 3 thì chúng ta sẽ phát triển bởi họ sẽ sẵn sàng chi trả cho chất lượng sản phẩm hơn là quan tâm về giá thành.
+
+**Sở thích và sở trường:**
+- Xem TV, nghe đài
+- Làm vườn
+- Giải trí với bạn bè hàng xóm
+- Tập thể dục
+- Đọc sách, báo
+- Tham gia các hoạt động xã hội, hoạt động tôn giáo
+
+> Nguồn: https://www.phad.org/nguoi-cao-tuoi-o-viet-nam/  
+> https://vietnamnet.vn/nhom-nguoi-lon-tuoi-bat-dau-quen-voi-mua-sam-truc-tuyen-i403785.html
